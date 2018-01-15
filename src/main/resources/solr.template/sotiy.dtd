@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<!ELEMENT sotiy (select* )+>
+<!ELEMENT sotiy (select* )>
 <!ATTLIST sotiy
         namespace CDATA #IMPLIED
         >
@@ -27,12 +27,15 @@
 <!ELEMENT foreach (#PCDATA | include | foreach | if )*>
 <!ATTLIST foreach
         expression CDATA #REQUIRED
-        prefix CDATA #REQUIRED
+        prefix CDATA #IMPLIED
+        suffix CDATA #IMPLIED
         >
 
 <!ELEMENT if (#PCDATA | include | foreach  | if )*>
 <!ATTLIST if
         expression CDATA #REQUIRED
+        prefix CDATA #IMPLIED
+        suffix CDATA #IMPLIED
         >
 
 
