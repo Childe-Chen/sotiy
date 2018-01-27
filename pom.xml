@@ -39,7 +39,6 @@
         <guava.version>19.0</guava.version>
     </properties>
 
-
     <dependencies>
         <dependency>
             <groupId>ch.qos.logback</groupId>
