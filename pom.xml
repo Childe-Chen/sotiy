@@ -34,7 +34,7 @@
         <solr.version>5.5.4</solr.version>
         <velocity.version>1.7</velocity.version>
         <dom4j.version>1.6.1</dom4j.version>
-        <fastjson.version>1.2.7</fastjson.version>
+        <fastjson.version>1.2.31</fastjson.version>
         <logback.version>1.2.3</logback.version>
         <guava.version>19.0</guava.version>
     </properties>
